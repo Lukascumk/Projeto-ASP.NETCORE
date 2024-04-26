@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto Web", "Projeto Web.csproj", "{E8CDAFE9-0578-4489-A7BC-E794CEECB43E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto Web", "Projeto Web.csproj", "{E8CDAFE9-0578-4489-A7BC-E794CEECB43E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".gitignore", ".gitignore", "{C514885D-64F5-4786-A06A-6C56E10A1430}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\OneDrive\Área de Trabalho\repositório\Console.WriteLine.Saldo.em.conta\.gitignore = ..\..\..\..\..\..\..\OneDrive\Área de Trabalho\repositório\Console.WriteLine.Saldo.em.conta\.gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

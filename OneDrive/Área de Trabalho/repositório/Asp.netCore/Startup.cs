@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 
 
+
 namespace Projeto_Web
 {
     public class Startup
@@ -22,12 +23,13 @@ namespace Projeto_Web
 
             public IConfiguration Configuration { get; }
 
-            //Este Metodo get called by the runtime. Use este metodo para adiconar servicos para container.
+        //Este Metodo get called by the runtime. Use este metodo para adiconar servicos para container.
 
-            public void ConfigureServices(IServiceCollection services)
-            {
-                services.AddControllersWithViews();
-            }
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+        }
+
 
 
 
@@ -60,9 +62,16 @@ namespace Projeto_Web
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
+
         }
 
-
-
     }
+
+
+
 }
+
+
+
+
+
