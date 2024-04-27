@@ -9,7 +9,13 @@ namespace Projeto_Web.Controllers
         
         public IActionResult Index()
         {
-            return View();
+            HomeModel home = new HomeModel();
+
+            home.Nome = "Lukas Mota";
+            home.Email = "lukas.mota@outlook.com";
+
+
+            return View(home);
         }
 
         public IActionResult Privacy()
