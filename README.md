@@ -1,5 +1,2 @@
 Este repositório estou usando Asp.Net Core para criar uma pagina Web MVC.
-
-Estou utilizando biblioteca Bootstrap e criação de API e Crud. 
-
-Conectando com o banco de dados MySql (banco de dados relacional).
+Criando com minhas informações pessoais afim de entender funcionaliade.
