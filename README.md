@@ -1,4 +1,4 @@
-Este repositório estou usando Asp.Net Core para criar uma pagina Web.
+Este repositório estou usando Asp.Net Core para criar uma pagina Web MVC.
 
 Estou utilizando biblioteca Bootstrap e criação de API e Crud. 
 
